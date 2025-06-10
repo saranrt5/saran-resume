@@ -38,41 +38,41 @@ function AchievementCard({
   }} transition={{
     duration: 0.5,
     delay: delay / 1000
-  }} className="bg-white rounded-xl shadow-lg border border-blue-100 overflow-hidden hover:shadow-xl transition-shadow" data-unique-id="9ddbc6c6-994a-4aae-b6be-03565459b9d3" data-file-name="components/achievements-section.tsx">
-      <div className="p-6" data-unique-id="dcf64ca6-7d16-4a7c-b981-00bd9ed2ee2a" data-file-name="components/achievements-section.tsx">
-        <div className="flex items-start justify-between mb-4" data-unique-id="71cfd72a-a35b-4e06-bc98-826656148fd8" data-file-name="components/achievements-section.tsx">
-          <div className="flex items-start space-x-4" data-unique-id="366cff17-f9d5-46c2-9946-49c6c3522218" data-file-name="components/achievements-section.tsx">
-            <div className="p-3 rounded-lg bg-gradient-to-br from-amber-500 to-orange-500 text-white" data-unique-id="e6dd1059-65ff-4a76-92ce-7ea8e1bc6708" data-file-name="components/achievements-section.tsx" data-dynamic-text="true">
+  }} className="bg-white rounded-xl shadow-lg border border-blue-100 overflow-hidden hover:shadow-xl transition-shadow">
+      <div className="p-6">
+        <div className="flex items-start justify-between mb-4">
+          <div className="flex items-start space-x-4">
+            <div className="p-3 rounded-lg bg-gradient-to-br from-amber-500 to-orange-500 text-white">
               {icon}
             </div>
-            <div data-unique-id="725ad7b3-526c-4504-a229-4c9c12571575" data-file-name="components/achievements-section.tsx">
-              <h3 className="text-lg font-bold text-slate-900 mb-1" data-unique-id="316520ad-3269-45bc-add8-9b3ff01088db" data-file-name="components/achievements-section.tsx" data-dynamic-text="true">{title}</h3>
-              <p className="text-slate-600 font-medium" data-unique-id="c1bfffc7-108a-4241-965b-5470f1ff0408" data-file-name="components/achievements-section.tsx" data-dynamic-text="true">{organization}</p>
-              <p className="text-slate-500 text-sm" data-unique-id="dd1a2c06-4c92-4d54-b53a-ed92bd399a8b" data-file-name="components/achievements-section.tsx" data-dynamic-text="true">{year}</p>
+            <div>
+              <h3 className="text-lg font-bold text-slate-900 mb-1">{title}</h3>
+              <p className="text-slate-600 font-medium">{organization}</p>
+              <p className="text-slate-500 text-sm">{year}</p>
             </div>
           </div>
           <motion.button whileHover={{
           scale: 1.05
         }} whileTap={{
           scale: 0.95
-        }} onClick={() => setIsExpanded(!isExpanded)} className="p-2 rounded-lg bg-amber-100 text-amber-600 hover:bg-amber-200 transition-colors" data-unique-id="736be146-a7e6-494a-a547-a7377fdd531a" data-file-name="components/achievements-section.tsx" data-dynamic-text="true">
+        }} onClick={() => setIsExpanded(!isExpanded)} className="p-2 rounded-lg bg-amber-100 text-amber-600 hover:bg-amber-200 transition-colors">
             {isExpanded ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}
           </motion.button>
         </div>
         
-        <p className="text-slate-600 mb-4" data-unique-id="c94e55c5-f449-4103-b1f1-4c3976898781" data-file-name="components/achievements-section.tsx" data-dynamic-text="true">{description}</p>
+        <p className="text-slate-600 mb-4">{description}</p>
         
         <motion.div initial={false} animate={{
         height: isExpanded ? "auto" : 0,
         opacity: isExpanded ? 1 : 0
       }} transition={{
         duration: 0.3
-      }} className="overflow-hidden" data-unique-id="8305b175-4ae3-4074-98d3-5278d58ab7a2" data-file-name="components/achievements-section.tsx">
-          <div className="pt-4 border-t border-slate-200" data-unique-id="c2503c65-92cf-4930-849c-33b58dc1db6e" data-file-name="components/achievements-section.tsx">
-            <ul className="space-y-2" data-unique-id="c0e3b4cb-0c09-4b03-99af-888a9f4783da" data-file-name="components/achievements-section.tsx" data-dynamic-text="true">
-              {details.map((detail, index) => <li key={index} className="flex items-start space-x-2" data-unique-id="fce7e444-77a0-4bee-902b-1537ec6f9aaa" data-file-name="components/achievements-section.tsx">
-                  <div className="w-2 h-2 rounded-full bg-amber-500 mt-2 flex-shrink-0" data-unique-id="2118e71b-a29a-49e0-881c-d0a85bc3381a" data-file-name="components/achievements-section.tsx" />
-                  <span className="text-slate-600" data-unique-id="6a9bc8c8-5144-4a93-b310-759c0844e1ea" data-file-name="components/achievements-section.tsx" data-dynamic-text="true">{detail}</span>
+      }} className="overflow-hidden">
+          <div className="pt-4 border-t border-slate-200">
+            <ul className="space-y-2">
+              {details.map((detail, index) => <li key={index} className="flex items-start space-x-2">
+                  <div className="w-2 h-2 rounded-full bg-amber-500 mt-2 flex-shrink-0" />
+                  <span className="text-slate-600">{detail}</span>
                 </li>)}
             </ul>
           </div>
@@ -125,10 +125,10 @@ export function AchievementsSection() {
     y: 50
   }} transition={{
     duration: 0.6
-  }} data-unique-id="88df3b80-502a-4ab6-9560-10c0b8ee1acc" data-file-name="components/achievements-section.tsx">
-      <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center" data-unique-id="92d8b20a-2d4e-47e1-874a-1137ca47cbe7" data-file-name="components/achievements-section.tsx"><span className="editable-text" data-unique-id="8c941fab-7c84-4154-b117-55f668e15b4e" data-file-name="components/achievements-section.tsx">Major Achievements</span></h2>
-      <div className="grid grid-cols-2 gap-6" data-unique-id="62648520-13f2-4556-a085-975d848e57d3" data-file-name="components/achievements-section.tsx" data-dynamic-text="true">
-        {achievements.map((achievement, index) => <AchievementCard key={index} {...achievement} delay={index * 200} data-unique-id="1fcfbaa8-cf78-4b19-b9fc-965cfa9e4337" data-file-name="components/achievements-section.tsx" data-dynamic-text="true" />)}
+  }}>
+      <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center"><span className="editable-text">Major Achievements</span></h2>
+      <div className="grid grid-cols-2 gap-6">
+        {achievements.map((achievement, index) => <AchievementCard key={index} {...achievement} delay={index * 200} />)}
       </div>
     </motion.div>;
 }
