@@ -38,41 +38,41 @@ function AchievementCard({
   }} transition={{
     duration: 0.5,
     delay: delay / 1000
-  }} className="bg-white rounded-xl shadow-lg border border-blue-100 overflow-hidden hover:shadow-xl transition-shadow" data-unique-id="4d916836-b1ce-48fc-9641-01a241b89887" data-file-name="components/achievements-section.tsx">
-      <div className="p-6" data-unique-id="f1e20819-ff3a-44f8-954a-958b1378c426" data-file-name="components/achievements-section.tsx">
-        <div className="flex items-start justify-between mb-4" data-unique-id="270fff59-bf9d-4b10-8dc6-aec7aa965120" data-file-name="components/achievements-section.tsx">
-          <div className="flex items-start space-x-4" data-unique-id="692cd4cf-619d-482e-a415-1f1582ee3479" data-file-name="components/achievements-section.tsx">
-            <div className="p-3 rounded-lg bg-gradient-to-br from-amber-500 to-orange-500 text-white" data-unique-id="562724ba-ee47-44bb-997c-dbb47a1b1667" data-file-name="components/achievements-section.tsx" data-dynamic-text="true">
+  }} className="bg-white rounded-xl shadow-lg border border-blue-100 overflow-hidden hover:shadow-xl transition-shadow" data-unique-id="9ddbc6c6-994a-4aae-b6be-03565459b9d3" data-file-name="components/achievements-section.tsx">
+      <div className="p-6" data-unique-id="dcf64ca6-7d16-4a7c-b981-00bd9ed2ee2a" data-file-name="components/achievements-section.tsx">
+        <div className="flex items-start justify-between mb-4" data-unique-id="71cfd72a-a35b-4e06-bc98-826656148fd8" data-file-name="components/achievements-section.tsx">
+          <div className="flex items-start space-x-4" data-unique-id="366cff17-f9d5-46c2-9946-49c6c3522218" data-file-name="components/achievements-section.tsx">
+            <div className="p-3 rounded-lg bg-gradient-to-br from-amber-500 to-orange-500 text-white" data-unique-id="e6dd1059-65ff-4a76-92ce-7ea8e1bc6708" data-file-name="components/achievements-section.tsx" data-dynamic-text="true">
               {icon}
             </div>
-            <div data-unique-id="ca7d35a4-c2cb-4634-8f5d-15e676340864" data-file-name="components/achievements-section.tsx">
-              <h3 className="text-lg font-bold text-slate-900 mb-1" data-unique-id="85c4edef-eac5-4e2c-8dc0-784da8a48535" data-file-name="components/achievements-section.tsx" data-dynamic-text="true">{title}</h3>
-              <p className="text-slate-600 font-medium" data-unique-id="e7bc70ce-d589-42bb-8e92-5667f79ed5c2" data-file-name="components/achievements-section.tsx" data-dynamic-text="true">{organization}</p>
-              <p className="text-slate-500 text-sm" data-unique-id="cb59750f-28de-4e16-bfe3-0ee952bebf3e" data-file-name="components/achievements-section.tsx" data-dynamic-text="true">{year}</p>
+            <div data-unique-id="725ad7b3-526c-4504-a229-4c9c12571575" data-file-name="components/achievements-section.tsx">
+              <h3 className="text-lg font-bold text-slate-900 mb-1" data-unique-id="316520ad-3269-45bc-add8-9b3ff01088db" data-file-name="components/achievements-section.tsx" data-dynamic-text="true">{title}</h3>
+              <p className="text-slate-600 font-medium" data-unique-id="c1bfffc7-108a-4241-965b-5470f1ff0408" data-file-name="components/achievements-section.tsx" data-dynamic-text="true">{organization}</p>
+              <p className="text-slate-500 text-sm" data-unique-id="dd1a2c06-4c92-4d54-b53a-ed92bd399a8b" data-file-name="components/achievements-section.tsx" data-dynamic-text="true">{year}</p>
             </div>
           </div>
           <motion.button whileHover={{
           scale: 1.05
         }} whileTap={{
           scale: 0.95
-        }} onClick={() => setIsExpanded(!isExpanded)} className="p-2 rounded-lg bg-amber-100 text-amber-600 hover:bg-amber-200 transition-colors" data-unique-id="151f2333-a66d-405b-9678-3e36f9f338f4" data-file-name="components/achievements-section.tsx" data-dynamic-text="true">
+        }} onClick={() => setIsExpanded(!isExpanded)} className="p-2 rounded-lg bg-amber-100 text-amber-600 hover:bg-amber-200 transition-colors" data-unique-id="736be146-a7e6-494a-a547-a7377fdd531a" data-file-name="components/achievements-section.tsx" data-dynamic-text="true">
             {isExpanded ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}
           </motion.button>
         </div>
         
-        <p className="text-slate-600 mb-4" data-unique-id="90187820-0b04-46e2-88ab-072435343d85" data-file-name="components/achievements-section.tsx" data-dynamic-text="true">{description}</p>
+        <p className="text-slate-600 mb-4" data-unique-id="c94e55c5-f449-4103-b1f1-4c3976898781" data-file-name="components/achievements-section.tsx" data-dynamic-text="true">{description}</p>
         
         <motion.div initial={false} animate={{
         height: isExpanded ? "auto" : 0,
         opacity: isExpanded ? 1 : 0
       }} transition={{
         duration: 0.3
-      }} className="overflow-hidden" data-unique-id="d4c993e9-0e6c-499e-9309-5663246d1d11" data-file-name="components/achievements-section.tsx">
-          <div className="pt-4 border-t border-slate-200" data-unique-id="3cfd7990-8ee8-4ec1-8d1e-bd5da70e9efc" data-file-name="components/achievements-section.tsx">
-            <ul className="space-y-2" data-unique-id="7670406c-a41d-4c11-aad2-c6b5d17d092b" data-file-name="components/achievements-section.tsx" data-dynamic-text="true">
-              {details.map((detail, index) => <li key={index} className="flex items-start space-x-2" data-unique-id="c0ff6d7c-a32b-4d21-bb0c-81df8fb0871c" data-file-name="components/achievements-section.tsx">
-                  <div className="w-2 h-2 rounded-full bg-amber-500 mt-2 flex-shrink-0" data-unique-id="ada4a7c6-33bf-46a2-8d20-b249efd1d318" data-file-name="components/achievements-section.tsx" />
-                  <span className="text-slate-600" data-unique-id="5b641512-7196-48ae-bb24-5e5fb5e5f57b" data-file-name="components/achievements-section.tsx" data-dynamic-text="true">{detail}</span>
+      }} className="overflow-hidden" data-unique-id="8305b175-4ae3-4074-98d3-5278d58ab7a2" data-file-name="components/achievements-section.tsx">
+          <div className="pt-4 border-t border-slate-200" data-unique-id="c2503c65-92cf-4930-849c-33b58dc1db6e" data-file-name="components/achievements-section.tsx">
+            <ul className="space-y-2" data-unique-id="c0e3b4cb-0c09-4b03-99af-888a9f4783da" data-file-name="components/achievements-section.tsx" data-dynamic-text="true">
+              {details.map((detail, index) => <li key={index} className="flex items-start space-x-2" data-unique-id="fce7e444-77a0-4bee-902b-1537ec6f9aaa" data-file-name="components/achievements-section.tsx">
+                  <div className="w-2 h-2 rounded-full bg-amber-500 mt-2 flex-shrink-0" data-unique-id="2118e71b-a29a-49e0-881c-d0a85bc3381a" data-file-name="components/achievements-section.tsx" />
+                  <span className="text-slate-600" data-unique-id="6a9bc8c8-5144-4a93-b310-759c0844e1ea" data-file-name="components/achievements-section.tsx" data-dynamic-text="true">{detail}</span>
                 </li>)}
             </ul>
           </div>
@@ -125,10 +125,10 @@ export function AchievementsSection() {
     y: 50
   }} transition={{
     duration: 0.6
-  }} data-unique-id="28738dae-596b-49cf-affc-81e1d54ec0f0" data-file-name="components/achievements-section.tsx">
-      <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center" data-unique-id="c70dfeaf-6ae7-4e0a-b4cc-c08c52e35dd3" data-file-name="components/achievements-section.tsx"><span className="editable-text" data-unique-id="b8647963-060f-4b16-a827-28e43b3cde57" data-file-name="components/achievements-section.tsx">Major Achievements</span></h2>
-      <div className="grid grid-cols-2 gap-6" data-unique-id="7fee3396-c48f-4aa8-b31b-bd3b15896eb5" data-file-name="components/achievements-section.tsx" data-dynamic-text="true">
-        {achievements.map((achievement, index) => <AchievementCard key={index} {...achievement} delay={index * 200} data-unique-id="8d378add-16a5-421d-8c8f-4ac43244fb4b" data-file-name="components/achievements-section.tsx" data-dynamic-text="true" />)}
+  }} data-unique-id="88df3b80-502a-4ab6-9560-10c0b8ee1acc" data-file-name="components/achievements-section.tsx">
+      <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center" data-unique-id="92d8b20a-2d4e-47e1-874a-1137ca47cbe7" data-file-name="components/achievements-section.tsx"><span className="editable-text" data-unique-id="8c941fab-7c84-4154-b117-55f668e15b4e" data-file-name="components/achievements-section.tsx">Major Achievements</span></h2>
+      <div className="grid grid-cols-2 gap-6" data-unique-id="62648520-13f2-4556-a085-975d848e57d3" data-file-name="components/achievements-section.tsx" data-dynamic-text="true">
+        {achievements.map((achievement, index) => <AchievementCard key={index} {...achievement} delay={index * 200} data-unique-id="1fcfbaa8-cf78-4b19-b9fc-965cfa9e4337" data-file-name="components/achievements-section.tsx" data-dynamic-text="true" />)}
       </div>
     </motion.div>;
 }

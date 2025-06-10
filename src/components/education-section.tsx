@@ -37,35 +37,35 @@ function EducationCard({
   }} transition={{
     duration: 0.5,
     delay: delay / 1000
-  }} className="bg-white rounded-xl shadow-lg border border-blue-100 p-6 hover:shadow-xl transition-shadow" data-unique-id="7a058137-06e8-458d-930b-a33b6eb4a218" data-file-name="components/education-section.tsx">
-      <div className="flex items-start space-x-4" data-unique-id="f485a46d-c9f9-4c4b-8d27-443e25026513" data-file-name="components/education-section.tsx">
-        <div className="p-3 rounded-lg bg-gradient-to-br from-blue-500 to-teal-500 text-white" data-unique-id="f151d645-2b39-4426-9e33-1470977d70eb" data-file-name="components/education-section.tsx">
+  }} className="bg-white rounded-xl shadow-lg border border-blue-100 p-6 hover:shadow-xl transition-shadow" data-unique-id="0d3de4dc-b8c7-4220-9d5c-62a4f2aa9804" data-file-name="components/education-section.tsx">
+      <div className="flex items-start space-x-4" data-unique-id="32d40aad-0086-4871-bda3-afb77db5443d" data-file-name="components/education-section.tsx">
+        <div className="p-3 rounded-lg bg-gradient-to-br from-blue-500 to-teal-500 text-white" data-unique-id="dccdcc1b-fba6-4673-affe-db1b14639e85" data-file-name="components/education-section.tsx">
           <GraduationCap className="w-6 h-6" />
         </div>
-        <div className="flex-1" data-unique-id="0b00fccc-6f13-4a95-b3c9-cd2d4e4be9b8" data-file-name="components/education-section.tsx">
-          <h3 className="text-lg font-bold text-slate-900 mb-2" data-unique-id="56f49753-9b88-4e0c-8083-5cdb0e91e83b" data-file-name="components/education-section.tsx" data-dynamic-text="true">{degree}</h3>
-          <p className="text-slate-700 font-medium mb-2" data-unique-id="b636287f-d0e7-4c39-bfcc-de776ffa529b" data-file-name="components/education-section.tsx" data-dynamic-text="true">{school}</p>
-          <div className="flex items-center space-x-4 text-slate-600 mb-4" data-unique-id="391aa153-1e09-4497-8675-7aa7bcd868b4" data-file-name="components/education-section.tsx" data-dynamic-text="true">
-            <div className="flex items-center space-x-1" data-unique-id="571e017a-9213-4c5a-982a-958fe033df10" data-file-name="components/education-section.tsx">
-              <Calendar className="w-4 h-4" data-unique-id="c3f1bf2b-e705-4fd9-af8f-3ef229f3840e" data-file-name="components/education-section.tsx" />
-              <span className="text-sm" data-unique-id="228f3fa0-59ad-454c-bab1-133a26c12f62" data-file-name="components/education-section.tsx" data-dynamic-text="true">{period}</span>
+        <div className="flex-1" data-unique-id="e674bb5b-5d66-4cda-a0dc-d58bb2558cff" data-file-name="components/education-section.tsx">
+          <h3 className="text-lg font-bold text-slate-900 mb-2" data-unique-id="f20f77c8-25b8-47db-944e-f427ebc191ec" data-file-name="components/education-section.tsx" data-dynamic-text="true">{degree}</h3>
+          <p className="text-slate-700 font-medium mb-2" data-unique-id="23b3aa3a-6c33-4be5-b22b-1432ae307157" data-file-name="components/education-section.tsx" data-dynamic-text="true">{school}</p>
+          <div className="flex items-center space-x-4 text-slate-600 mb-4" data-unique-id="fedf00c8-97f9-4230-9e29-8c74873c50a3" data-file-name="components/education-section.tsx" data-dynamic-text="true">
+            <div className="flex items-center space-x-1" data-unique-id="4e3e3c67-3b35-40da-b011-36d17a3bc3a2" data-file-name="components/education-section.tsx">
+              <Calendar className="w-4 h-4" data-unique-id="027617ca-847d-42b8-a493-acb91fc2d1d2" data-file-name="components/education-section.tsx" />
+              <span className="text-sm" data-unique-id="ccb83eb9-483e-40de-a1a3-f1cec9ae1048" data-file-name="components/education-section.tsx" data-dynamic-text="true">{period}</span>
             </div>
-            <div className="flex items-center space-x-1" data-unique-id="15f4d2bb-1f99-4a8a-b72f-602973ac0773" data-file-name="components/education-section.tsx">
+            <div className="flex items-center space-x-1" data-unique-id="16fabfc6-ede7-4f1f-a0c7-14abb7d07bc9" data-file-name="components/education-section.tsx">
               <MapPin className="w-4 h-4" />
-              <span className="text-sm" data-unique-id="0a94601f-9f55-4da5-9353-9f0bea3f19d5" data-file-name="components/education-section.tsx" data-dynamic-text="true">{place}</span>
+              <span className="text-sm" data-unique-id="af7a8d94-0939-4cfd-a067-12aa869c494e" data-file-name="components/education-section.tsx" data-dynamic-text="true">{place}</span>
             </div>
-            {grade && <div className="flex items-center space-x-1" data-unique-id="c7bde95e-9ef8-4c00-bd82-60760cb07895" data-file-name="components/education-section.tsx">
+            {grade && <div className="flex items-center space-x-1" data-unique-id="98892b01-d9ac-4009-91e4-ba2fdb822344" data-file-name="components/education-section.tsx">
                 <Award className="w-4 h-4" />
-                <span className="text-sm" data-unique-id="5735200c-afbb-4943-807a-c0e5cf405ffe" data-file-name="components/education-section.tsx" data-dynamic-text="true">{grade}</span>
+                <span className="text-sm" data-unique-id="787317fe-d9b3-4b84-a0ea-60654bfa27e7" data-file-name="components/education-section.tsx" data-dynamic-text="true">{grade}</span>
               </div>}
           </div>
           
-          <div data-unique-id="c04854f7-b193-49bc-ac21-9d159b5dcafe" data-file-name="components/education-section.tsx">
-            <h4 className="font-semibold text-slate-800 mb-2" data-unique-id="f468c7d1-99eb-47de-8d29-e0571383882d" data-file-name="components/education-section.tsx"><span className="editable-text" data-unique-id="2d58467f-ddb6-4665-8d6a-1986fba15ac5" data-file-name="components/education-section.tsx">Achievements:</span></h4>
-            <ul className="space-y-1" data-unique-id="77384da6-b9f6-4435-abf1-db4531966267" data-file-name="components/education-section.tsx" data-dynamic-text="true">
-              {achievements.map((achievement, index) => <li key={index} className="flex items-start space-x-2" data-unique-id="f20af70a-e8b6-4270-b4e5-5de553f4cc6f" data-file-name="components/education-section.tsx">
-                  <div className="w-2 h-2 rounded-full bg-blue-500 mt-2 flex-shrink-0" data-unique-id="500276b8-22d7-4d85-bddb-cd396ce1267d" data-file-name="components/education-section.tsx" />
-                  <span className="text-slate-600 text-sm" data-unique-id="3cf5c8d3-b4d0-48b9-a94d-603152e8ef2e" data-file-name="components/education-section.tsx" data-dynamic-text="true">{achievement}</span>
+          <div data-unique-id="6590c0eb-e28e-4215-a263-8291b2fb32b6" data-file-name="components/education-section.tsx">
+            <h4 className="font-semibold text-slate-800 mb-2" data-unique-id="2d478da9-7216-4a1a-8074-62f99ed2b959" data-file-name="components/education-section.tsx"><span className="editable-text" data-unique-id="4f066fe3-cc22-4051-aca8-c5be5aa8b9fc" data-file-name="components/education-section.tsx">Achievements:</span></h4>
+            <ul className="space-y-1" data-unique-id="7e60e6f2-95ea-4c3b-9801-582a5bf533d6" data-file-name="components/education-section.tsx" data-dynamic-text="true">
+              {achievements.map((achievement, index) => <li key={index} className="flex items-start space-x-2" data-unique-id="c68788ac-04f1-4c92-9ec4-c202c82b3e70" data-file-name="components/education-section.tsx">
+                  <div className="w-2 h-2 rounded-full bg-blue-500 mt-2 flex-shrink-0" data-unique-id="ecaca907-8668-41af-803e-c60a2759a681" data-file-name="components/education-section.tsx" />
+                  <span className="text-slate-600 text-sm" data-unique-id="fb76a375-a83c-4f12-af9a-cd90dccf3350" data-file-name="components/education-section.tsx" data-dynamic-text="true">{achievement}</span>
                 </li>)}
             </ul>
           </div>
@@ -105,12 +105,12 @@ export function EducationSection() {
     y: 50
   }} transition={{
     duration: 0.6
-  }} data-unique-id="fef632ae-3c54-4032-8659-d4ea25ad3134" data-file-name="components/education-section.tsx">
-      <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center" data-unique-id="e47db362-7caa-45f4-8e22-cb378d3e8c00" data-file-name="components/education-section.tsx"><span className="editable-text" data-unique-id="f33c85ed-39c2-4072-9bad-e82523e04c41" data-file-name="components/education-section.tsx">Education & Certifications</span></h2>
+  }} data-unique-id="4f6f7dc9-1e03-4a2d-9e7e-ddd7122544a0" data-file-name="components/education-section.tsx">
+      <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center" data-unique-id="3e564c37-9ee2-433b-a751-3361dd0847d7" data-file-name="components/education-section.tsx"><span className="editable-text" data-unique-id="d370adb8-c54d-41f3-b554-e975e4770475" data-file-name="components/education-section.tsx">Education & Certifications</span></h2>
       
-      <div className="grid grid-cols-2 gap-8" data-unique-id="76fcc3a5-368f-4e92-8cd9-49d1e2d25903" data-file-name="components/education-section.tsx">
-        <div className="space-y-6" data-unique-id="1c0dd21d-6142-4614-9277-07e96384c9e1" data-file-name="components/education-section.tsx" data-dynamic-text="true">
-          {education.map((edu, index) => <EducationCard key={index} {...edu} delay={index * 200} data-unique-id="7d8961ef-5b4e-4e3e-8730-b0b01f8021ac" data-file-name="components/education-section.tsx" data-dynamic-text="true" />)}
+      <div className="grid grid-cols-2 gap-8" data-unique-id="f2b6c8d4-0e6e-49e6-91a1-9e704a638d3d" data-file-name="components/education-section.tsx">
+        <div className="space-y-6" data-unique-id="f87052ee-94ea-41b5-aec1-af263b9c510e" data-file-name="components/education-section.tsx" data-dynamic-text="true">
+          {education.map((edu, index) => <EducationCard key={index} {...edu} delay={index * 200} data-unique-id="a9ced0b7-c108-43c6-89a1-0d094a36ba17" data-file-name="components/education-section.tsx" data-dynamic-text="true" />)}
         </div>
         
         <motion.div initial={{
@@ -125,9 +125,9 @@ export function EducationSection() {
       }} transition={{
         duration: 0.5,
         delay: 0.4
-      }} className="bg-white rounded-xl shadow-lg border border-blue-100 p-6" data-unique-id="e71c0794-a7d5-4a31-95e7-05782c21c05a" data-file-name="components/education-section.tsx">
-          <h3 className="text-xl font-bold text-slate-900 mb-6" data-unique-id="a1fc5b61-e738-4dd2-993d-c0c9aed7040c" data-file-name="components/education-section.tsx"><span className="editable-text" data-unique-id="d77e9bf6-78d6-4820-af80-1034e5d7e3a5" data-file-name="components/education-section.tsx">Professional Certifications</span></h3>
-          <div className="space-y-4" data-unique-id="02f962df-6621-473f-957b-ec0bd7ee706a" data-file-name="components/education-section.tsx" data-dynamic-text="true">
+      }} className="bg-white rounded-xl shadow-lg border border-blue-100 p-6" data-unique-id="63df0172-a16e-41f9-a8a2-6c0a775702cb" data-file-name="components/education-section.tsx">
+          <h3 className="text-xl font-bold text-slate-900 mb-6" data-unique-id="637dd3df-6c59-4765-bf3b-fe2da43069f3" data-file-name="components/education-section.tsx"><span className="editable-text" data-unique-id="6db9c206-41ff-427b-b2bd-b3aea3477d46" data-file-name="components/education-section.tsx">Professional Certifications</span></h3>
+          <div className="space-y-4" data-unique-id="946e7189-cfa3-4e83-878a-5ce35f240888" data-file-name="components/education-section.tsx" data-dynamic-text="true">
             {certifications.map((cert, index) => <motion.div key={index} initial={{
             opacity: 0,
             x: 20
@@ -140,22 +140,22 @@ export function EducationSection() {
           }} transition={{
             duration: 0.5,
             delay: 0.6 + index * 0.1
-          }} className="flex items-center space-x-3 p-3 rounded-lg bg-gradient-to-r from-blue-50 to-teal-50 border border-blue-100" data-unique-id="983b45e8-0950-412e-aea2-ac6c77865ba7" data-file-name="components/education-section.tsx">
-                <div className="p-2 rounded-lg bg-blue-500 text-white" data-unique-id="6d943446-9698-4fe9-8fa8-d2fa87060ae5" data-file-name="components/education-section.tsx">
-                  <Award className="w-4 h-4" data-unique-id="0757a9db-a88a-4fa1-a828-dce7117bd034" data-file-name="components/education-section.tsx" data-dynamic-text="true" />
+          }} className="flex items-center space-x-3 p-3 rounded-lg bg-gradient-to-r from-blue-50 to-teal-50 border border-blue-100" data-unique-id="f54f4396-d4b2-4881-9eae-79db01c712f1" data-file-name="components/education-section.tsx">
+                <div className="p-2 rounded-lg bg-blue-500 text-white" data-unique-id="a104fda6-8600-4ccc-ba4c-ad97cbb714e1" data-file-name="components/education-section.tsx">
+                  <Award className="w-4 h-4" data-unique-id="756f41b3-c090-4758-91c8-248fdd405ead" data-file-name="components/education-section.tsx" data-dynamic-text="true" />
                 </div>
-                <span className="text-slate-700 font-medium" data-unique-id="0af77ba3-8438-4b05-b732-2b9d52418d98" data-file-name="components/education-section.tsx" data-dynamic-text="true">{cert}</span>
+                <span className="text-slate-700 font-medium" data-unique-id="7437ed66-d0e8-43a0-b17d-e07aa5d56a28" data-file-name="components/education-section.tsx" data-dynamic-text="true">{cert}</span>
               </motion.div>)}
           </div>
           
-          <div className="mt-8" data-unique-id="ceb8a473-d39d-4b6a-94b3-f3389656536d" data-file-name="components/education-section.tsx">
-            <h4 className="text-lg font-semibold text-slate-800 mb-6" data-unique-id="f05bc3ca-5563-4084-a823-edd6873461e0" data-file-name="components/education-section.tsx"><span className="editable-text" data-unique-id="fb853d31-0e66-4f83-98fe-957239493855" data-file-name="components/education-section.tsx">Tools & Technologies</span></h4>
+          <div className="mt-8" data-unique-id="acb004bf-835e-4022-8105-21acc4361127" data-file-name="components/education-section.tsx">
+            <h4 className="text-lg font-semibold text-slate-800 mb-6" data-unique-id="c6826de9-8d89-47b2-bb14-842618c695a9" data-file-name="components/education-section.tsx"><span className="editable-text" data-unique-id="f71db49f-bf84-48da-8e4b-60639401dcf9" data-file-name="components/education-section.tsx">Tools & Technologies</span></h4>
             
-            <div className="grid grid-cols-3 gap-6" data-unique-id="2954c901-bab5-4f28-9f12-1ec511635b2c" data-file-name="components/education-section.tsx" data-dynamic-text="true">
+            <div className="grid grid-cols-3 gap-6" data-unique-id="cee25da3-6cc4-46c7-a325-1e3a70b327e4" data-file-name="components/education-section.tsx" data-dynamic-text="true">
               {/* Product Management */}
-              <div className="bg-slate-50 rounded-lg p-4" data-unique-id="b0257f58-4d02-43a2-86bd-281204d562f6" data-file-name="components/education-section.tsx">
-                <h5 className="font-semibold text-slate-800 mb-3 text-center" data-unique-id="06d775b8-a3e2-421e-b031-947327875e2c" data-file-name="components/education-section.tsx"><span className="editable-text" data-unique-id="7887d678-841c-45bf-b847-0b6504e8fa1d" data-file-name="components/education-section.tsx">Product Management</span></h5>
-                <div className="space-y-2" data-unique-id="b3718edf-8b15-42b4-834e-8003d5cbc8b2" data-file-name="components/education-section.tsx" data-dynamic-text="true">
+              <div className="bg-slate-50 rounded-lg p-4" data-unique-id="365d6fd6-efbb-4069-a08d-7d5f3a3d8fac" data-file-name="components/education-section.tsx">
+                <h5 className="font-semibold text-slate-800 mb-3 text-center" data-unique-id="3ed02984-d39b-4a9d-a834-86a64cbc2c7c" data-file-name="components/education-section.tsx"><span className="editable-text" data-unique-id="211a44bc-25bd-4683-9a8e-a73bf2be101a" data-file-name="components/education-section.tsx">Product Management</span></h5>
+                <div className="space-y-2" data-unique-id="dbecb0a4-fd0a-4679-9fd9-d4fef40006d8" data-file-name="components/education-section.tsx" data-dynamic-text="true">
                   {["JIRA", "Confluence", "Aha!", "ProductPlan", "Miro", "Asana"].map((tool, index) => <motion.div key={index} initial={{
                   opacity: 0,
                   scale: 0.9
@@ -168,16 +168,16 @@ export function EducationSection() {
                 }} transition={{
                   duration: 0.3,
                   delay: 0.8 + index * 0.02
-                }} className="px-3 py-2 bg-white text-slate-700 rounded-md text-sm font-medium text-center border border-slate-200" data-unique-id="4db41015-fc52-4be5-9c5a-7f29e6c7c23b" data-file-name="components/education-section.tsx" data-dynamic-text="true">
+                }} className="px-3 py-2 bg-white text-slate-700 rounded-md text-sm font-medium text-center border border-slate-200" data-unique-id="e40cc048-dafd-4e41-86d5-7f3cb41df818" data-file-name="components/education-section.tsx" data-dynamic-text="true">
                       {tool}
                     </motion.div>)}
                 </div>
               </div>
 
               {/* Data & Analytics */}
-              <div className="bg-slate-50 rounded-lg p-4" data-unique-id="9ff2c09d-be84-4b4a-8948-5f8103046704" data-file-name="components/education-section.tsx">
-                <h5 className="font-semibold text-slate-800 mb-3 text-center" data-unique-id="665e6181-0631-4898-9621-8a7c0ed06673" data-file-name="components/education-section.tsx"><span className="editable-text" data-unique-id="22fd0634-9d8a-4e3b-937e-48d5c34ab098" data-file-name="components/education-section.tsx">Data & Analytics</span></h5>
-                <div className="space-y-2" data-unique-id="e840f654-ad5d-490a-b252-07ace381de24" data-file-name="components/education-section.tsx" data-dynamic-text="true">
+              <div className="bg-slate-50 rounded-lg p-4" data-unique-id="a994dd76-0fbf-4564-acc6-231e4126729f" data-file-name="components/education-section.tsx">
+                <h5 className="font-semibold text-slate-800 mb-3 text-center" data-unique-id="d77e125e-b776-498d-b926-21e71646ba62" data-file-name="components/education-section.tsx"><span className="editable-text" data-unique-id="d848ac4a-8ea4-4e52-8bdd-f3f2ddbfdc04" data-file-name="components/education-section.tsx">Data & Analytics</span></h5>
+                <div className="space-y-2" data-unique-id="e2438a6c-c284-4f4a-950c-28b55d03c503" data-file-name="components/education-section.tsx" data-dynamic-text="true">
                   {["SQL", "Tableau", "Looker", "DBeaver", "Power BI"].map((tool, index) => <motion.div key={index} initial={{
                   opacity: 0,
                   scale: 0.9
@@ -190,16 +190,16 @@ export function EducationSection() {
                 }} transition={{
                   duration: 0.3,
                   delay: 0.9 + index * 0.02
-                }} className="px-3 py-2 bg-white text-slate-700 rounded-md text-sm font-medium text-center border border-slate-200" data-unique-id="9f59192d-b4c0-4cd9-ab6d-3e4247949f34" data-file-name="components/education-section.tsx" data-dynamic-text="true">
+                }} className="px-3 py-2 bg-white text-slate-700 rounded-md text-sm font-medium text-center border border-slate-200" data-unique-id="19b57ca8-d5d5-4de0-a676-766ba2eb5b90" data-file-name="components/education-section.tsx" data-dynamic-text="true">
                       {tool}
                     </motion.div>)}
                 </div>
               </div>
 
               {/* AI & ML */}
-              <div className="bg-slate-50 rounded-lg p-4" data-unique-id="07007f7a-e037-4e43-a841-7a4c095ba7c0" data-file-name="components/education-section.tsx">
-                <h5 className="font-semibold text-slate-800 mb-3 text-center" data-unique-id="82b2a24e-a8c6-4aa9-a7d5-87791f095742" data-file-name="components/education-section.tsx"><span className="editable-text" data-unique-id="fd2bf4f2-2740-4742-a108-f97576cd2a55" data-file-name="components/education-section.tsx">AI & ML</span></h5>
-                <div className="space-y-2" data-unique-id="2090186d-dd1d-48dd-8b7c-b8f7b80e3412" data-file-name="components/education-section.tsx" data-dynamic-text="true">
+              <div className="bg-slate-50 rounded-lg p-4" data-unique-id="8dfa4118-6cef-411a-8d27-e72a10c3f130" data-file-name="components/education-section.tsx">
+                <h5 className="font-semibold text-slate-800 mb-3 text-center" data-unique-id="1447441c-3f34-4a6e-88e5-2511622f3144" data-file-name="components/education-section.tsx"><span className="editable-text" data-unique-id="79125515-e5b3-41ea-8341-81dbff6ab73c" data-file-name="components/education-section.tsx">AI & ML</span></h5>
+                <div className="space-y-2" data-unique-id="3a9d2420-2f10-4b3b-a017-c9f534e68212" data-file-name="components/education-section.tsx" data-dynamic-text="true">
                   {["TensorFlow", "Machine Learning Platforms", "Jupyter Notebooks", "Python ML Libraries"].map((tool, index) => <motion.div key={index} initial={{
                   opacity: 0,
                   scale: 0.9
@@ -212,18 +212,18 @@ export function EducationSection() {
                 }} transition={{
                   duration: 0.3,
                   delay: 1.0 + index * 0.02
-                }} className="px-3 py-2 bg-white text-slate-700 rounded-md text-sm font-medium text-center border border-slate-200" data-unique-id="c2e2a468-f584-40d1-ae4b-f8874cd0def8" data-file-name="components/education-section.tsx" data-dynamic-text="true">
+                }} className="px-3 py-2 bg-white text-slate-700 rounded-md text-sm font-medium text-center border border-slate-200" data-unique-id="48929a42-b509-4ee3-a7bc-f95823522449" data-file-name="components/education-section.tsx" data-dynamic-text="true">
                       {tool}
                     </motion.div>)}
                 </div>
               </div>
             </div>
 
-            <div className="grid grid-cols-3 gap-6 mt-6" data-unique-id="13d583b6-5eb8-4948-b700-d6ce46585df3" data-file-name="components/education-section.tsx" data-dynamic-text="true">
+            <div className="grid grid-cols-3 gap-6 mt-6" data-unique-id="d14e9f5b-79b1-4239-b289-021fd52c37bf" data-file-name="components/education-section.tsx" data-dynamic-text="true">
               {/* Design */}
-              <div className="bg-slate-50 rounded-lg p-4" data-unique-id="dbc9d450-0479-4a3e-a578-cfc9c4082c27" data-file-name="components/education-section.tsx">
-                <h5 className="font-semibold text-slate-800 mb-3 text-center" data-unique-id="6ed5b702-09f9-4b33-8418-360b70152d85" data-file-name="components/education-section.tsx"><span className="editable-text" data-unique-id="8358cbd0-d232-42ce-938e-5c4da3e48ff8" data-file-name="components/education-section.tsx">Design</span></h5>
-                <div className="space-y-2" data-unique-id="b7026e46-3682-4924-b894-01d86e309f59" data-file-name="components/education-section.tsx" data-dynamic-text="true">
+              <div className="bg-slate-50 rounded-lg p-4" data-unique-id="02b3b33d-54d0-49ce-8391-8577a6b182c5" data-file-name="components/education-section.tsx">
+                <h5 className="font-semibold text-slate-800 mb-3 text-center" data-unique-id="7c70a9ab-2b68-472a-b522-b216e79764f6" data-file-name="components/education-section.tsx"><span className="editable-text" data-unique-id="42f29fc5-ab27-47b2-9dae-0d69073788d9" data-file-name="components/education-section.tsx">Design</span></h5>
+                <div className="space-y-2" data-unique-id="3ec932f4-6d81-46e0-b6a4-f8b743975400" data-file-name="components/education-section.tsx" data-dynamic-text="true">
                   {["Figma", "Balsamiq", "Sketch"].map((tool, index) => <motion.div key={index} initial={{
                   opacity: 0,
                   scale: 0.9
@@ -236,16 +236,16 @@ export function EducationSection() {
                 }} transition={{
                   duration: 0.3,
                   delay: 1.1 + index * 0.02
-                }} className="px-3 py-2 bg-white text-slate-700 rounded-md text-sm font-medium text-center border border-slate-200" data-unique-id="c6235b79-3902-4261-a9fd-91c33ee42a87" data-file-name="components/education-section.tsx" data-dynamic-text="true">
+                }} className="px-3 py-2 bg-white text-slate-700 rounded-md text-sm font-medium text-center border border-slate-200" data-unique-id="bc579560-cf05-4155-a2b1-cfd9f2952977" data-file-name="components/education-section.tsx" data-dynamic-text="true">
                       {tool}
                     </motion.div>)}
                 </div>
               </div>
 
               {/* Enterprise Systems */}
-              <div className="bg-slate-50 rounded-lg p-4" data-unique-id="eb8c93f4-6a87-4ab6-901e-74ffa537b59d" data-file-name="components/education-section.tsx">
-                <h5 className="font-semibold text-slate-800 mb-3 text-center" data-unique-id="9ab3f675-0756-41b0-a10c-cb3412247482" data-file-name="components/education-section.tsx"><span className="editable-text" data-unique-id="5fa51511-4113-4818-b624-52ded484db44" data-file-name="components/education-section.tsx">Enterprise Systems</span></h5>
-                <div className="space-y-2" data-unique-id="dc3df4be-d43a-4f92-942a-1319ec76fab9" data-file-name="components/education-section.tsx" data-dynamic-text="true">
+              <div className="bg-slate-50 rounded-lg p-4" data-unique-id="bfbb5b9a-9dd8-40aa-8752-51c1d17cf198" data-file-name="components/education-section.tsx">
+                <h5 className="font-semibold text-slate-800 mb-3 text-center" data-unique-id="9c4c8df6-85d2-4d3e-a628-721860a76259" data-file-name="components/education-section.tsx"><span className="editable-text" data-unique-id="faf65c63-a9f4-4f1f-b9e6-e57c60a81b15" data-file-name="components/education-section.tsx">Enterprise Systems</span></h5>
+                <div className="space-y-2" data-unique-id="bab19094-f1e9-4fed-a2cf-185da2dfb1dc" data-file-name="components/education-section.tsx" data-dynamic-text="true">
                   {["SAP Hybris", "SAP Mercury", "ServiceNow", "Worldpay"].map((tool, index) => <motion.div key={index} initial={{
                   opacity: 0,
                   scale: 0.9
@@ -258,16 +258,16 @@ export function EducationSection() {
                 }} transition={{
                   duration: 0.3,
                   delay: 1.2 + index * 0.02
-                }} className="px-3 py-2 bg-white text-slate-700 rounded-md text-sm font-medium text-center border border-slate-200" data-unique-id="d0c0b19a-3293-433d-97de-fc2fbfc7a8f0" data-file-name="components/education-section.tsx" data-dynamic-text="true">
+                }} className="px-3 py-2 bg-white text-slate-700 rounded-md text-sm font-medium text-center border border-slate-200" data-unique-id="0775de8e-d638-4c83-9025-37055906ab12" data-file-name="components/education-section.tsx" data-dynamic-text="true">
                       {tool}
                     </motion.div>)}
                 </div>
               </div>
 
               {/* Quality & Testing */}
-              <div className="bg-slate-50 rounded-lg p-4" data-unique-id="af2d9f0d-3a77-4bdd-8c47-d7647b4f8ee6" data-file-name="components/education-section.tsx">
-                <h5 className="font-semibold text-slate-800 mb-3 text-center" data-unique-id="926698b7-df28-4c7d-ab0b-1f247398c41f" data-file-name="components/education-section.tsx"><span className="editable-text" data-unique-id="94cff823-7693-4b5a-9fab-cd2536e3ef34" data-file-name="components/education-section.tsx">Quality & Testing</span></h5>
-                <div className="space-y-2" data-unique-id="79cfdf3d-50f6-4ade-ab91-fb9e7297be0d" data-file-name="components/education-section.tsx" data-dynamic-text="true">
+              <div className="bg-slate-50 rounded-lg p-4" data-unique-id="8c57b0c6-b1f3-47cc-aea7-e039bddb0ccc" data-file-name="components/education-section.tsx">
+                <h5 className="font-semibold text-slate-800 mb-3 text-center" data-unique-id="16116b0b-aff2-4ce9-b3a3-c645bdc0d9d9" data-file-name="components/education-section.tsx"><span className="editable-text" data-unique-id="99c39df1-55ca-4bde-ae13-efe9c2710c3e" data-file-name="components/education-section.tsx">Quality & Testing</span></h5>
+                <div className="space-y-2" data-unique-id="564dcbe0-b530-4b5b-8882-f72cdca13ec9" data-file-name="components/education-section.tsx" data-dynamic-text="true">
                   {["HP QC", "TestRail"].map((tool, index) => <motion.div key={index} initial={{
                   opacity: 0,
                   scale: 0.9
@@ -280,7 +280,7 @@ export function EducationSection() {
                 }} transition={{
                   duration: 0.3,
                   delay: 1.3 + index * 0.02
-                }} className="px-3 py-2 bg-white text-slate-700 rounded-md text-sm font-medium text-center border border-slate-200" data-unique-id="b0790257-e00e-42b0-8008-8d5c70d28b3c" data-file-name="components/education-section.tsx" data-dynamic-text="true">
+                }} className="px-3 py-2 bg-white text-slate-700 rounded-md text-sm font-medium text-center border border-slate-200" data-unique-id="a04e7e51-ff9e-487f-b91e-69cffd17ade2" data-file-name="components/education-section.tsx" data-dynamic-text="true">
                       {tool}
                     </motion.div>)}
                 </div>

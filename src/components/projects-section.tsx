@@ -37,39 +37,39 @@ function ProjectCard({
     delay: delay / 1000
   }} whileHover={{
     y: -8
-  }} className="bg-white rounded-2xl shadow-lg border border-blue-100 overflow-hidden hover:shadow-xl transition-all duration-300" data-unique-id="5910e7a9-d2e0-4d57-85b1-ed73d47817a9" data-file-name="components/projects-section.tsx">
-      <div className="h-48 overflow-hidden" data-unique-id="ee25f397-f87a-4731-9588-88da066ef835" data-file-name="components/projects-section.tsx">
-        <img src={image} alt={title} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" data-unique-id="62fcc7af-d941-4635-8d25-5dbcdc2bce82" data-file-name="components/projects-section.tsx" />
+  }} className="bg-white rounded-2xl shadow-lg border border-blue-100 overflow-hidden hover:shadow-xl transition-all duration-300" data-unique-id="4a81a69b-3990-4ec0-83e8-48b5e69131e4" data-file-name="components/projects-section.tsx">
+      <div className="h-48 overflow-hidden" data-unique-id="6f04e621-0889-40f9-a18f-ae51918dd488" data-file-name="components/projects-section.tsx">
+        <img src={image} alt={title} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" data-unique-id="df8a2f10-e09f-44f8-9760-0824cb88a5f7" data-file-name="components/projects-section.tsx" />
       </div>
       
-      <div className="p-6" data-unique-id="222e9109-b4b6-41d7-a656-efae8891825c" data-file-name="components/projects-section.tsx">
-        <div className="flex items-center justify-between mb-3" data-unique-id="c6267361-2b0a-49b5-b514-1c064e1f4d0f" data-file-name="components/projects-section.tsx">
-          <h3 className="text-xl font-bold text-slate-900" data-unique-id="1f11874e-2d7b-4304-b615-5a235a63262d" data-file-name="components/projects-section.tsx" data-dynamic-text="true">{title}</h3>
-          <div className="flex space-x-2" data-unique-id="847d0086-4a97-4dad-bbf6-a0f9b7b6a9c7" data-file-name="components/projects-section.tsx">
+      <div className="p-6" data-unique-id="7959b86e-3ca3-4fb6-97fa-14bab671cc56" data-file-name="components/projects-section.tsx">
+        <div className="flex items-center justify-between mb-3" data-unique-id="b0eb8bb8-a2b4-4c98-aeed-dee5f16605ef" data-file-name="components/projects-section.tsx">
+          <h3 className="text-xl font-bold text-slate-900" data-unique-id="7c71a903-fb5b-4873-afd9-6784cac92add" data-file-name="components/projects-section.tsx" data-dynamic-text="true">{title}</h3>
+          <div className="flex space-x-2" data-unique-id="5d725e60-0064-4cae-86f3-df93d0cfb712" data-file-name="components/projects-section.tsx">
             <motion.div whileHover={{
             scale: 1.1
           }} whileTap={{
             scale: 0.9
-          }} className="p-2 rounded-lg bg-blue-100 text-blue-600 hover:bg-blue-200 transition-colors" data-unique-id="7b8c0bdb-bed7-4606-a85c-6f82a57316c4" data-file-name="components/projects-section.tsx">
+          }} className="p-2 rounded-lg bg-blue-100 text-blue-600 hover:bg-blue-200 transition-colors" data-unique-id="e8e85f76-1260-4275-8ed2-1e77daed437f" data-file-name="components/projects-section.tsx">
               <TrendingUp className="w-4 h-4" />
             </motion.div>
           </div>
         </div>
         
-        <p className="text-slate-600 mb-4" data-unique-id="bacecd2e-0425-4ff6-84b4-1361d16cd5f3" data-file-name="components/projects-section.tsx" data-dynamic-text="true">{description}</p>
+        <p className="text-slate-600 mb-4" data-unique-id="031d2fbe-4bd7-4d0f-b8e5-e4749d27983c" data-file-name="components/projects-section.tsx" data-dynamic-text="true">{description}</p>
         
-        <div className="mb-4" data-unique-id="f1180c42-350b-484b-9fdf-3afa0870755b" data-file-name="components/projects-section.tsx">
-          <div className="flex flex-wrap gap-2" data-unique-id="b92e7e8e-c681-4167-b8f9-81666bd09b6d" data-file-name="components/projects-section.tsx" data-dynamic-text="true">
-            {technologies.map((tech, index) => <span key={index} className="px-3 py-1 bg-gradient-to-r from-blue-100 to-teal-100 text-blue-800 rounded-full text-sm font-medium" data-unique-id="04ffee4c-0ef0-4cc2-860a-3e82824e9ccd" data-file-name="components/projects-section.tsx" data-dynamic-text="true">
+        <div className="mb-4" data-unique-id="2e402d44-b7bd-467f-9de9-d4a46e86eb4c" data-file-name="components/projects-section.tsx">
+          <div className="flex flex-wrap gap-2" data-unique-id="a93e434f-6741-43c3-8a82-e011e3e9abb0" data-file-name="components/projects-section.tsx" data-dynamic-text="true">
+            {technologies.map((tech, index) => <span key={index} className="px-3 py-1 bg-gradient-to-r from-blue-100 to-teal-100 text-blue-800 rounded-full text-sm font-medium" data-unique-id="3b0ac514-f38e-46e1-8f32-be6dcc936d6e" data-file-name="components/projects-section.tsx" data-dynamic-text="true">
                 {tech}
               </span>)}
           </div>
         </div>
         
-        <div className="space-y-2" data-unique-id="dc205ee3-e3f7-4677-96a1-f6a001e400ef" data-file-name="components/projects-section.tsx" data-dynamic-text="true">
-          {metrics.map((metric, index) => <div key={index} className="flex items-center space-x-2" data-unique-id="af10ec93-5b32-4c2d-a7e0-5193a7606d55" data-file-name="components/projects-section.tsx">
-              <Star className="w-4 h-4 text-amber-500" data-unique-id="0c701d1d-8e4e-457d-954d-a7ee838bd93a" data-file-name="components/projects-section.tsx" data-dynamic-text="true" />
-              <span className="text-slate-600 text-sm" data-unique-id="477733b1-13f4-495b-81d5-c4ddf555c8b2" data-file-name="components/projects-section.tsx" data-dynamic-text="true">{metric}</span>
+        <div className="space-y-2" data-unique-id="ab72c9a7-0907-4fab-9f8d-47eb68104f09" data-file-name="components/projects-section.tsx" data-dynamic-text="true">
+          {metrics.map((metric, index) => <div key={index} className="flex items-center space-x-2" data-unique-id="cd041741-c69e-4fc8-b467-af999cdaf5b5" data-file-name="components/projects-section.tsx">
+              <Star className="w-4 h-4 text-amber-500" data-unique-id="08d6fb55-1197-4d2c-bf46-15b1103b6666" data-file-name="components/projects-section.tsx" data-dynamic-text="true" />
+              <span className="text-slate-600 text-sm" data-unique-id="301e6de5-4687-4cb5-a722-0328fee48767" data-file-name="components/projects-section.tsx" data-dynamic-text="true">{metric}</span>
             </div>)}
         </div>
       </div>
@@ -110,10 +110,10 @@ export function ProjectsSection() {
     y: 50
   }} transition={{
     duration: 0.6
-  }} data-unique-id="55f5087c-246b-48a3-bdb7-9163c0181503" data-file-name="components/projects-section.tsx">
-      <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center" data-unique-id="0c933610-9f83-4351-8f1e-7ca05805462d" data-file-name="components/projects-section.tsx"><span className="editable-text" data-unique-id="bf101996-fa6d-4ce1-a691-8009171285dd" data-file-name="components/projects-section.tsx">Key Project Achievements</span></h2>
-      <div className="grid grid-cols-3 gap-8" data-unique-id="b0d51c49-b93c-4335-ba12-2ae0e5ae96f9" data-file-name="components/projects-section.tsx" data-dynamic-text="true">
-        {projects.map((project, index) => <ProjectCard key={index} {...project} delay={index * 200} data-unique-id="73a9144e-6f81-4160-8181-efbd303dacb2" data-file-name="components/projects-section.tsx" data-dynamic-text="true" />)}
+  }} data-unique-id="8bd9491d-29e4-44b2-86ed-c753e4f10b9a" data-file-name="components/projects-section.tsx">
+      <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center" data-unique-id="0675c336-1c94-4166-9e89-51f670fed6f7" data-file-name="components/projects-section.tsx"><span className="editable-text" data-unique-id="961b50bc-5f14-49b5-aaed-4142b150c5d3" data-file-name="components/projects-section.tsx">Key Project Achievements</span></h2>
+      <div className="grid grid-cols-3 gap-8" data-unique-id="811f138f-50e3-4d83-b405-5b290f067f37" data-file-name="components/projects-section.tsx" data-dynamic-text="true">
+        {projects.map((project, index) => <ProjectCard key={index} {...project} delay={index * 200} data-unique-id="6549ad5a-833b-45e1-a3c6-257723dd3064" data-file-name="components/projects-section.tsx" data-dynamic-text="true" />)}
       </div>
     </motion.div>;
 }
