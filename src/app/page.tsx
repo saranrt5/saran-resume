@@ -9,8 +9,8 @@ import { ProjectsSection } from "@/components/projects-section";
 import { AchievementsSection } from "@/components/achievements-section";
 import { EducationSection } from "@/components/education-section";
 export default function HomePage() {
-  return <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-200" data-unique-id="442fc7da-757a-4654-af56-3c7bc1cabc33" data-file-name="app/page.tsx">
-      <div className="max-w-7xl mx-auto px-6 py-8 space-y-12" data-unique-id="8a3a4e02-8942-4d05-9268-4202ed817639" data-file-name="app/page.tsx">
+  return <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-200">
+      <div className="max-w-7xl mx-auto px-6 py-8 space-y-12">
         <Header />
         <AboutSection />
         <MetricsSection />
