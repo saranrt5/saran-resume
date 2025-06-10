@@ -60,8 +60,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <html suppressHydrationWarning lang="en">
-      <body className={`${inter.className} bg-background text-foreground antialiased`}>
+  return <html suppressHydrationWarning lang="en" data-unique-id="e67c6136-1243-45be-a78e-b9c1627926be" data-file-name="app/layout.tsx">
+      <body className={`${inter.className} bg-background text-foreground antialiased`} data-unique-id="6cdf6bad-15df-433b-a6db-8f3cf6a0cfbd" data-file-name="app/layout.tsx">
         <ThemeProvider attribute='class'>
           <DevtoolsProvider>
             {children}
