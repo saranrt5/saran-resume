@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   },
 };
 
-const geist = Geist({
+const inter = Geist({
   subsets: ['latin'],
 })
 
@@ -55,7 +55,7 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html suppressHydrationWarning lang="en">
-      <body className={`${geist.className} bg-background text-foreground antialiased`}>
+      <body className={`${inter.className} bg-background text-foreground antialiased`}>
         <ThemeProvider attribute='class'>
           <DevtoolsProvider>
             {children}
