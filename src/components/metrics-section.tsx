@@ -3,7 +3,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
 import { Users, Code, Award, TrendingUp } from "lucide-react";
-
 interface MetricCardProps {
   icon: React.ReactNode;
   value: number;
@@ -12,12 +11,19 @@ interface MetricCardProps {
   prefix?: string;
   delay?: number;
 }
-
-function MetricCard({ icon, value, label, suffix = "", prefix = "", delay = 0 }: MetricCardProps) {
+function MetricCard({
+  icon,
+  value,
+  label,
+  suffix = "",
+  prefix = "",
+  delay = 0
+}: MetricCardProps) {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
+  const isInView = useInView(ref, {
+    once: true
+  });
   const [count, setCount] = useState(0);
-
   useEffect(() => {
     if (isInView) {
       const timer = setTimeout(() => {
@@ -37,70 +43,53 @@ function MetricCard({ icon, value, label, suffix = "", prefix = "", delay = 0 }:
       return () => clearTimeout(timer);
     }
   }, [isInView, value, delay]);
-
-  return (
-    <motion.div
-      ref={ref}
-      initial={{ opacity: 0, scale: 0.9 }}
-      animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.9 }}
-      transition={{ duration: 0.5, delay: delay / 1000 }}
-      className="bg-white rounded-xl shadow-lg p-6 border border-blue-100 hover:shadow-xl transition-shadow"
-    >
-      <div className="flex items-center justify-between mb-4">
-        <div className="p-3 rounded-lg bg-gradient-to-br from-blue-500 to-teal-500 text-white">
+  return <motion.div ref={ref} initial={{
+    opacity: 0,
+    scale: 0.9
+  }} animate={isInView ? {
+    opacity: 1,
+    scale: 1
+  } : {
+    opacity: 0,
+    scale: 0.9
+  }} transition={{
+    duration: 0.5,
+    delay: delay / 1000
+  }} className="bg-white rounded-xl shadow-lg p-6 border border-blue-100 hover:shadow-xl transition-shadow" data-unique-id="1c46c1ea-d797-4e15-9d2d-d15002951b4e" data-file-name="components/metrics-section.tsx">
+      <div className="flex items-center justify-between mb-4" data-unique-id="c82112bd-744b-48a5-83e9-d494921c1fc5" data-file-name="components/metrics-section.tsx">
+        <div className="p-3 rounded-lg bg-gradient-to-br from-blue-500 to-teal-500 text-white" data-unique-id="efdb9c02-e47c-45f3-bc05-01a87cd31708" data-file-name="components/metrics-section.tsx" data-dynamic-text="true">
           {icon}
         </div>
       </div>
-      <div className="text-3xl font-bold text-slate-900 mb-2">
+      <div className="text-3xl font-bold text-slate-900 mb-2" data-unique-id="03bb070f-2239-413a-95ba-030fd1c2c8a9" data-file-name="components/metrics-section.tsx" data-dynamic-text="true">
         {prefix}{count.toLocaleString()}{suffix}
       </div>
-      <div className="text-slate-600 font-medium">{label}</div>
-    </motion.div>
-  );
+      <div className="text-slate-600 font-medium" data-unique-id="35ad2bb3-3133-46b4-b5a3-51094b569f83" data-file-name="components/metrics-section.tsx" data-dynamic-text="true">{label}</div>
+    </motion.div>;
 }
-
 export function MetricsSection() {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
-
-  return (
-    <motion.div
-      ref={ref}
-      initial={{ opacity: 0, y: 50 }}
-      animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
-      transition={{ duration: 0.6 }}
-    >
-      <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">Key Metrics</h2>
-      <div className="grid grid-cols-4 gap-6">
-        <MetricCard
-          icon={<Users className="w-6 h-6" />}
-          value={2000000}
-          label="Daily Active Users"
-          suffix="+"
-          delay={200}
-        />
-        <MetricCard
-          icon={<Code className="w-6 h-6" />}
-          value={50}
-          label="Projects Delivered"
-          suffix="+"
-          delay={400}
-        />
-        <MetricCard
-          icon={<TrendingUp className="w-6 h-6" />}
-          value={40}
-          label="Performance Improvement"
-          suffix="%"
-          delay={600}
-        />
-        <MetricCard
-          icon={<Award className="w-6 h-6" />}
-          value={8}
-          label="Years Experience"
-          suffix="+"
-          delay={800}
-        />
+  const isInView = useInView(ref, {
+    once: true
+  });
+  return <motion.div ref={ref} initial={{
+    opacity: 0,
+    y: 50
+  }} animate={isInView ? {
+    opacity: 1,
+    y: 0
+  } : {
+    opacity: 0,
+    y: 50
+  }} transition={{
+    duration: 0.6
+  }} data-unique-id="3c0034db-8617-4748-8e86-bb2028351805" data-file-name="components/metrics-section.tsx">
+      <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center" data-unique-id="e25e5b5e-745c-4a38-a911-6438bfe972af" data-file-name="components/metrics-section.tsx"><span className="editable-text" data-unique-id="f0636489-62c9-411e-a5e3-cd2a0b8697c6" data-file-name="components/metrics-section.tsx">Key Metrics</span></h2>
+      <div className="grid grid-cols-4 gap-6" data-unique-id="d556502e-d664-4fb8-a5cc-fffffac19219" data-file-name="components/metrics-section.tsx">
+        <MetricCard icon={<Users className="w-6 h-6" />} value={2000000} label="Daily Active Users" suffix="+" delay={200} />
+        <MetricCard icon={<Code className="w-6 h-6" />} value={50} label="Projects Delivered" suffix="+" delay={400} />
+        <MetricCard icon={<TrendingUp className="w-6 h-6" />} value={40} label="Performance Improvement" suffix="%" delay={600} />
+        <MetricCard icon={<Award className="w-6 h-6" />} value={8} label="Years Experience" suffix="+" delay={800} />
       </div>
-    </motion.div>
-  );
+    </motion.div>;
 }
