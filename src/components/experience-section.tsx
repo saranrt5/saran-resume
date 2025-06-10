@@ -40,55 +40,55 @@ function ExperienceCard({
   }} transition={{
     duration: 0.5,
     delay: delay / 1000
-  }} className="bg-white rounded-xl shadow-lg border border-blue-100 overflow-hidden hover:shadow-xl transition-shadow">
-      <div className="p-6">
-        <div className="flex items-start justify-between mb-4">
-          <div>
-            <h3 className="text-xl font-bold text-slate-900">{position}</h3>
-            <div className="flex items-center space-x-4 mt-2 text-slate-600">
-              <div className="flex items-center space-x-2">
+  }} className="bg-white rounded-xl shadow-lg border border-blue-100 overflow-hidden hover:shadow-xl transition-shadow" data-unique-id="2691eb17-7980-43b4-91d1-059c4e5a02a2" data-file-name="components/experience-section.tsx">
+      <div className="p-6" data-unique-id="b409b93b-3ff7-4265-9451-a117ef1468ad" data-file-name="components/experience-section.tsx">
+        <div className="flex items-start justify-between mb-4" data-unique-id="5727d54a-9414-47ab-ad97-ac2787023a92" data-file-name="components/experience-section.tsx">
+          <div data-unique-id="a4a35725-89b5-433f-a173-1108d86321d4" data-file-name="components/experience-section.tsx">
+            <h3 className="text-xl font-bold text-slate-900" data-unique-id="f8231839-58df-4200-8b15-3f72f1ee9584" data-file-name="components/experience-section.tsx" data-dynamic-text="true">{position}</h3>
+            <div className="flex items-center space-x-4 mt-2 text-slate-600" data-unique-id="18e336cb-b2b8-4bd8-a991-1cf3cbffd59c" data-file-name="components/experience-section.tsx">
+              <div className="flex items-center space-x-2" data-unique-id="2f0c0564-4931-4001-b0e9-bdc73f6f605e" data-file-name="components/experience-section.tsx">
                 <Building className="w-4 h-4" />
-                <span className="font-medium">{company}</span>
+                <span className="font-medium" data-unique-id="85e4a1fd-7ecd-4728-be62-40dec68c507b" data-file-name="components/experience-section.tsx" data-dynamic-text="true">{company}</span>
               </div>
-              <div className="flex items-center space-x-2">
-                <Calendar className="w-4 h-4" />
-                <span>{period}</span>
+              <div className="flex items-center space-x-2" data-unique-id="91906f2d-6a73-4d0a-91c6-b620be4c10b8" data-file-name="components/experience-section.tsx">
+                <Calendar className="w-4 h-4" data-unique-id="15b19554-6d86-4c22-ad0b-0d481c6b9d4d" data-file-name="components/experience-section.tsx" />
+                <span data-unique-id="eead7e2f-a6e1-47a4-9474-652cd7a414b1" data-file-name="components/experience-section.tsx" data-dynamic-text="true">{period}</span>
               </div>
-              <span>{place}</span>
+              <span data-unique-id="d38b7d57-3818-4136-bce1-0954b650c9f7" data-file-name="components/experience-section.tsx" data-dynamic-text="true">{place}</span>
             </div>
           </div>
           <motion.button whileHover={{
           scale: 1.05
         }} whileTap={{
           scale: 0.95
-        }} onClick={() => setIsExpanded(!isExpanded)} className="p-2 rounded-lg bg-blue-100 text-blue-600 hover:bg-blue-200 transition-colors">
+        }} onClick={() => setIsExpanded(!isExpanded)} className="p-2 rounded-lg bg-blue-100 text-blue-600 hover:bg-blue-200 transition-colors" data-unique-id="91bcb2f4-f9e8-4e34-848a-f313b0def894" data-file-name="components/experience-section.tsx" data-dynamic-text="true">
             {isExpanded ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}
           </motion.button>
         </div>
         
-        <p className="text-slate-600 mb-4">{description}</p>
+        <p className="text-slate-600 mb-4" data-unique-id="6175e5cc-e5a0-4fce-ae03-4b81213bd450" data-file-name="components/experience-section.tsx" data-dynamic-text="true">{description}</p>
         
         <motion.div initial={false} animate={{
         height: isExpanded ? "auto" : 0,
         opacity: isExpanded ? 1 : 0
       }} transition={{
         duration: 0.3
-      }} className="overflow-hidden">
-          <div className="space-y-4 pt-4 border-t border-slate-200">
-            <div>
-              <h4 className="font-semibold text-slate-800 mb-2"><span className="editable-text">Key Achievements:</span></h4>
-              <ul className="space-y-2">
-                {achievements.map((achievement, index) => <li key={index} className="flex items-start space-x-2">
-                    <div className="w-2 h-2 rounded-full bg-blue-500 mt-2 flex-shrink-0" />
-                    <span className="text-slate-600">{achievement}</span>
+      }} className="overflow-hidden" data-unique-id="ffe97950-7496-413e-b1cd-9b828f85eed1" data-file-name="components/experience-section.tsx">
+          <div className="space-y-4 pt-4 border-t border-slate-200" data-unique-id="c9b08f82-b663-4636-8872-d06ad5c26e83" data-file-name="components/experience-section.tsx">
+            <div data-unique-id="436308f0-757f-476c-9826-504ea248c5d4" data-file-name="components/experience-section.tsx">
+              <h4 className="font-semibold text-slate-800 mb-2" data-unique-id="7d53db7f-b1ba-4f4e-bf96-3ce73999535e" data-file-name="components/experience-section.tsx"><span className="editable-text" data-unique-id="fa4dc737-0c21-4cd2-bfef-3dac4c47f49d" data-file-name="components/experience-section.tsx">Key Achievements:</span></h4>
+              <ul className="space-y-2" data-unique-id="581c7478-45df-4b64-a2c7-87030a2ba2d8" data-file-name="components/experience-section.tsx" data-dynamic-text="true">
+                {achievements.map((achievement, index) => <li key={index} className="flex items-start space-x-2" data-unique-id="bbe6fd39-2d6e-4018-87a0-a543da1f068f" data-file-name="components/experience-section.tsx">
+                    <div className="w-2 h-2 rounded-full bg-blue-500 mt-2 flex-shrink-0" data-unique-id="1fca4931-8c11-40b3-ad49-339d0606ed99" data-file-name="components/experience-section.tsx" />
+                    <span className="text-slate-600" data-unique-id="b22e2491-e845-4c23-9ba9-c461e669fcc5" data-file-name="components/experience-section.tsx" data-dynamic-text="true">{achievement}</span>
                   </li>)}
               </ul>
             </div>
             
-            <div>
-              <h4 className="font-semibold text-slate-800 mb-2"><span className="editable-text">Key Skills:</span></h4>
-              <div className="flex flex-wrap gap-2">
-                {technologies.map((tech, index) => <span key={index} className="px-3 py-1 bg-slate-100 text-slate-700 rounded-full text-sm font-medium">
+            <div data-unique-id="5afdaa1c-681b-4adb-895f-168fe2251dca" data-file-name="components/experience-section.tsx">
+              <h4 className="font-semibold text-slate-800 mb-2" data-unique-id="f8becda2-a135-41c8-aee6-a31cf0772ae2" data-file-name="components/experience-section.tsx"><span className="editable-text" data-unique-id="005f561c-4ed7-4e4c-905a-a1ef3728d2e8" data-file-name="components/experience-section.tsx">Key Skills:</span></h4>
+              <div className="flex flex-wrap gap-2" data-unique-id="bf16311b-25c9-4762-b7c4-cdccdbedec00" data-file-name="components/experience-section.tsx" data-dynamic-text="true">
+                {technologies.map((tech, index) => <span key={index} className="px-3 py-1 bg-slate-100 text-slate-700 rounded-full text-sm font-medium" data-unique-id="f9ed83a3-61b5-44f6-b506-192228c34dfd" data-file-name="components/experience-section.tsx" data-dynamic-text="true">
                     {tech}
                   </span>)}
               </div>
@@ -171,10 +171,10 @@ export function ExperienceSection() {
     y: 50
   }} transition={{
     duration: 0.6
-  }}>
-      <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center"><span className="editable-text">Professional Experience</span></h2>
-      <div className="space-y-6">
-        {experiences.map((exp, index) => <ExperienceCard key={index} {...exp} delay={index * 200} />)}
+  }} data-unique-id="22c23f7d-323b-48a6-a6f5-6a8a25b49590" data-file-name="components/experience-section.tsx">
+      <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center" data-unique-id="bacce9ce-cccc-4332-bf53-596b6467702b" data-file-name="components/experience-section.tsx"><span className="editable-text" data-unique-id="290000b6-792b-4f81-b0e6-b8487b4599ad" data-file-name="components/experience-section.tsx">Professional Experience</span></h2>
+      <div className="space-y-6" data-unique-id="c7ddc3e7-18a2-4f82-87cd-2074b23a5af0" data-file-name="components/experience-section.tsx" data-dynamic-text="true">
+        {experiences.map((exp, index) => <ExperienceCard key={index} {...exp} delay={index * 200} data-unique-id="41cbaf75-a000-43ab-a142-24d31ead2b4d" data-file-name="components/experience-section.tsx" data-dynamic-text="true" />)}
       </div>
     </motion.div>;
 }
